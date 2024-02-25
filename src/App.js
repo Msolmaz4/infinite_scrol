@@ -55,10 +55,10 @@ function App() {
       dataLength={data.length}
       next={fetchMoreData}
       hasMore={hasMore}
-      loader={<h4>Yükleniyor...</h4>}
+      loader={<h4>Loading...</h4>}
       endMessage={
         <p style={{ textAlign: 'center' }}>
-          <b>Harika! Hepsi bu kadar</b>
+          <b>Alles </b>
         </p>
       }
     >
